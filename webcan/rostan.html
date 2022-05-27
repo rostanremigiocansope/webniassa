@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rostan</title>
+
+    <style>
+    
+
+    
+    .rostanAgence .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(157, 157, 248);
+    height: 600px;
+    }
+
+    .rostanAgence .box-container .box{
+    flex: 1 1 30rem;
+    margin: 1.4rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: .5rem;
+    /*box-shadow: 0 .5rem rgba(0, 0, 0, .9);*/
+    height: 28rem;
+    cursor: pointer;
+    }
+
+    .rostanAgence .box-container .box img{
+    height: 550px;
+    width: 400px;
+    object-fit: cover;
+    padding-left: 50px;
+    }
+
+    .rostanAgence .box-container .box .info{
+    text-align: justify;
+    }
+
+    .info{
+        background: rgb(59, 59, 61);
+        border-radius: 2rem;
+    }
+
+    .info h3{
+        color: rgb(174, 174, 243);
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .info p{
+        padding: 15px;
+        color: white;
+    }
+
+    .info a{
+        color: blue;
+    }
+
+    .info a:hover{
+        background: blue;
+        color: black;
+        transition: 2s;
+    }
+
+    .contacto {
+        background: rgb(9, 9, 41);
+    }
+
+    .contacto p{
+        color: mintcream;
+        padding: 15px;
+    }
+
+    .box-container .box img{
+        width: 500px;
+    }
+
+    @media(max-width:768px){
+
+        .heading h1{
+            width: 50%;
+        }
+    }
+
+    </style>
+
+</head>
+<body>
+    <section class="rostanAgence" id="rostanAgence">
+
+        <div class="box-container">
+            <div class="box">
+                <img src="imagens/rostanFoto.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <div class="info">
+                    <h3>RostanAgence</h3>
+                    <p>
+                        RostanAgence e uma agencia que esta focalizando na criaçao de websites para publicidades de produtos em 
+                        pequenas e medias empresas. A RostanAgence e uma empresa em processo de crescimento que visa facilitar empreendedores
+                        a colocarem no mundo virtual o que dispoem, a sua localizaçao, como contacta-los e mostrando todo tipo de produtos
+                        a qualquer momento e lugar que a internet esteja disponivel. A RostanAgence tem com modelo a<a href="exerc.html">
+                        RostanWebPage</a> que foi criado na RostanAgence. <br><br>
+                        RostanAgence que visa criar websites tem Rostan P. Remigio Cansope como criador e designer de websites, e um jovem
+                        que nasceu na Provincia de Niassa cidade de Lichinga, licenciado em CM, mas com alguns conhecimentos em programaçao.
+                        Cria tambem alguns sistemas que facultam certos trabalhos em varios sectores.
+                    </p>
+                </div>
+
+                <div class="contacto">
+                    <p>Para saber mais pode interagir com o imail seguinte: <br> rostanremigiocansope@gmail.com <br>
+                        Contactos: +258845698264/+258877702986</p>
+                </div>
+            </div>
+        </div>
+  </section>
+</body>
+</html>

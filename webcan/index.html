@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RostanWebPage</title>
+
+    <!--Fonte Awesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="webP.css">
+</head>
+<body>
+   <!-- =====================Primeira Pagina Inicio======================================= -->
+   <header>
+        <a href="#" class="can">RostanWebPage</a>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#inicio">inicio</a>
+            <a href="#Niassa">Niassa</a>
+        </nav>
+    </header>
+    
+    <section class="inicio" id="inicio">
+        <div class="content">
+            <span>Website Desenvolvido por:</span>
+            <h3>Rostan P. Remigio Cansope</h3>
+            <a href="rostan.html" class="btn">Saiba mais</a>
+        </div>
+    </section>
+
+     <!-- =====================Primeira Pagina Fim========================================= -->
+
+
+
+
+
+    <!-- =====================Terceira Pagina Fim======================================== -->
+    <!-- Novidades -->
+    <section class="Niassa" id="Niassa">
+        <div class="heading">
+            <h1>A Provincia do Niassa</h1>
+            <img src="imagens/divisaohorizontal.png" alt="">
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="imagens/NiassaFotoWeb.png" alt="">
+                <div class="info">
+                    <h3><span>01. </span>Conheça Niassa</h3>
+                    <h4>Conheça distritos da provincia de Niassa</h4>
+                    <h4>Postos administrativos</h4>
+                    <a href="niassa.html" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagens/niassaculture.png" alt="">
+                <div class="info">
+                    <h3><span>03. </span>Cultura de Niassa</h3>
+                    <h4>Costumes ou habitos</h4>
+                    <h4>Cultura agraria</h4>
+                    <a href="niassaCultura.html" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagens/Cultura Niassa.png" alt="">
+                <div class="info">
+                    <h3><span>03. </span>Niassa Talentos</h3>
+                    <h4>Musicas</h4>
+                    <h4>Teatros entre outros talentos</h4>
+                    <a href="niassaTalentos.html" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====================Terceira Pagina Fim========================================= -->
+
+
+
+    <section class="fim">
+        <p>Rostan Peter Remigio Cansope. cell: 845698264/877702986.</p>
+    </section>
+
+    <script>
+        let menu = document.querySelector('#menu-bar');
+        let navbar = document.querySelector('.navbar');
+
+        menu.addEventListener('click', () =>{
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('nav-toggle');
+        });
+
+        window.onscroll = () =>{
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('nav-toggle');
+        }
+    </script>
+
+    
+</body>
+</html>

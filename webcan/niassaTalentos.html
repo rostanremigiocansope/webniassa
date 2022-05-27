@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talentos de Niassa</title>
+    <style>
+    
+
+    header{
+        background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(150, 204, 150));
+    }
+
+    header h1{
+        color: green;
+        height: 50px;
+    }
+
+    span{
+        color: blue;
+    }
+
+    .inicio .content h3{
+        color: rgb(17, 12, 85);
+        margin-left: 300px;
+        font-size: 60px;
+    }
+
+
+    /*seg pag*/
+    .heading{
+        background-image: linear-gradient(to bottom, rgb(255, 255, 255),green);
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 2.5rem;
+    }
+
+    .Moz .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to bottom, white,green);
+    }
+
+    .Moz .box-container .box{
+        flex: 1 1 30rem;
+        margin: 3rem;
+        overflow: hidden;/*lado a lado*/
+        position: relative;
+        border-radius: .5rem;
+        box-shadow: 0 .5rem rgba(0, 0, 0, .9);
+        height: 25rem;/*altura*/
+        cursor: pointer;
+    }
+
+    .Moz .box-container .box img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .Moz .box-container .box .info{
+        text-align: justify;
+    }
+
+    .Moz .conteudo{
+        background-image: linear-gradient(to bottom, white,green);
+        height: 100px;
+    }
+
+    
+    @media(max-width:770px){
+        .heading{
+            width: 350px;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Talentos da Provincia de <span>Niassa</span></h1>       
+    </header>
+    <hr>
+
+    
+
+    <section class="Moz" id="Moz">
+        <div class="heading">
+            <h1>Nosso Talento</h1>
+            
+            <hr>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="imagens/massukos.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <div class="info">
+                    <h3>Banda Massukos</h3>
+                    <hr>
+                    <p>
+                        Os Massukos são uma banda de referência do Niassa, ao norte de Moçambique.
+                        Naturais de Lichinga, devem o seu nome a uma fruta silvestre da província que as
+                        pessoas comem nas Machambas para matar a fome. O projeto existe desde 1992 e
+                        tem apostado na divulgação dos ritmos tradicionais do norte do país e na utilização da
+                        música para a promoção de causas sociais e ambientais. Por exemplo, já fizeram
+                        campanhas para apelo ao voto em eleições, saneamento básico, HIV-SIDA e lavagem
+                        das mãos. O mais recente disco intitula-se Massukos Ku Koma - "Massukos são
+                        doces". É o quarto disco da banda, tem 11 temas originais e serve de homenagem ao
+                        músico Machunguesy que chegou a fazer parte do projeto nos anos 90, como
+                        convidado em tournées internacionais.
+                    </p>
+
+                    <p>
+                        A Província do Niassa está localizada na região norte de Moçambique, e tem uma
+                        fronteira com a Tanzânia, com algumas províncias de Nampula e Zambézia, com uma
+                        província de Cabo Delgado e esta com o Malawi, com o Lago Niassa, dos Grandes Lagos Africanos.
+                    </p> 
+                </div>
+            </div>
+        </div>
+        <div class="conteudo">
+
+        </div>
+  </section>
+</body>
+</html>
